@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>David Lucky Personal Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/c2defd7b14.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/mylove.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Python Developer & Web Creator</p>
+            <h1>Hi, I'm <span>David</span><br>Lucky From Nigeria</h1>  
+        </div>
+    </div>
+<!-----------about----------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/danvic.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>David Lucky is a passionate and professional Python developer with a strong focus on building impactful digital solutions. He specializes in creating websites, applications, and tools that solve real-world problems and provide value to society.
+
+With a deep interest in programming, technology, and innovation, David combines creativity with technical expertise to design projects that are not only functional but also user-friendly. His work demonstrates a commitment to continuous growth, problem-solving, and delivering high-quality results.
+
+David is also experienced in GitHub, project collaboration, and modern development practices, making him well-prepared to contribute to both personal projects and team-based initiatives.
+
+Beyond coding, he enjoys exploring new challenges, learning advanced techniques, and turning ideas into reality through technology.</p>
+
+                <div class="tab-titles">
+                    <P class="tab-links active-link" onclick="opentab('skills')">Skills</P>
+                    <P class="tab-links" onclick="opentab('experience')">Experience</P>
+                    <P class="tab-links" onclick="opentab('education')">Education</P>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Python Programming</span><br>Writing clean and efficient code for applications and problem-solving</li>
+                        <li><span>Web Development</span><br>Designing and developing websites with functionality and good user experience</li>
+                        <li><span>Version Control (Git & GitHub)</span><br>Managing projects, collaborating, and tracking code changes</li>
+                        <li><span>Image Editing & Graphics</span><br>Basic editing, logo design, and creative adjustments for digital projects</li>
+                        <li><span>Presentation & Communication</span><br>Explaining technical concepts clearly (experience with tech presentations)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2019 – 2020 | Creative Projects</span><br>Worked on logo design, image editing, and visual enhancements to support digital projects.</li>
+                        <li><span>2020 – 2021 | Technical Presentations</span><br>Delivered talks and presentations on programming, GitHub, and Python, simplifying technical concepts for others.</li>
+                        <li><span>2021 – 2022 | Git & GitHub Projects</span><br>Gained hands-on experience in version control, managing repositories, and collaborating on projects.</li>
+                        <li><span>2012 – 2023 | Web Developer</span><br>Designed and developed responsive websites with modern layouts and user-friendly interfaces.</li>
+                        <li><span>2023  –  Present| Python Developer</span><br>Building applications and solving problems using Python, with a focus on clean code and practical solutions.</li>
+                    </ul>
+                </div>   
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Primary Education 2008-2014 </span><br>Paradise International School, Port Harcourt.</li>
+                        <li><span>Secondary Education 2014-2020</span><br>Brilliant Missionary College.</li>
+                        <li><span>University 2020-Present</span><br>Adeleke University Osun State.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------services------------------ -->
+<div id="service">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Custom Website Development</h2>
+                <p>Building fast, secure, and responsive websites tailored to client needs.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Web Application Development</h2>
+                <p>Developing interactive apps that solve real-world problems.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-briefcase"></i>
+                <h2>Portfolio & Business Sites</h2>
+                <p>Building fast, secure, and responsive websites tailored to client needs.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-server"></i>
+                <h2>Project Deployment & Hosting</h2>
+                <p>Setting up projects online with GitHub Pages, Netlify, or custom hosting.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-bug"></i>
+                <h2>Code Review & Debugging</h2>
+                <p>Improving existing code by finding and fixing errors for better performance.</p>
+                <a href="#">Learn more</a>
+        </div>
+    </div>    
+</div>
+<!----portfolio--- ---->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+              <img src="images/work 1.jpg" alt="Project 1">
+              <div class="layer">
+               <h3>Creative Portfolio Design</h3>
+               <p>An elegant personal portfolio built to highlight creativity, skills, and achievements in a modern way.</p>
+               <a href="#"><i class="fa-solid fa-user-tie"></i></a>
+             </div>
+            </div>
+            <div class="work">
+              <img src="images/work 2.jpg">
+              <div class="layer">
+                <h3>Online Storefront</h3>
+                <p>A stylish e-commerce website with smooth navigation and a simple, user-friendly shopping experience.</p>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/work 3.png">
+              <div class="layer">
+                <h3>Knowledge & Ideas Hub</h3>
+                <p>A blogging platform designed for sharing knowledge, stories, and ideas with a clean reading interface.</p>
+                <a href="#"><i class="fa-solid fa-book-open"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/work 4.avif">
+              <div class="layer">
+                <h3>Corporate Brand Website</h3>
+                <p>A business-focused landing page created to strengthen brand presence and attract new clients.</p>
+                <a href="#"><i class="fa-solid fa-building"></i></a>
+              </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- --------contact---------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <P><i class="fa-solid fa-paper-plane"></i> davidluckyking877@gmail.com</P>
+                <p><i class="fa-solid fa-phone"></i> 07018971378</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=61580358251049"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/davidlucky107/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/DavidLucky22369"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="contact-rigth">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="7" placeholder="Your Message"></textarea>
+                    <button type="submit">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab"); 
+    }
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>
